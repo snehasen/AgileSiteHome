@@ -13,18 +13,20 @@
   {% endif %}
   <!-- Icon -->
  
-  <link rel="icon" type="image/ico" href="{{ url_for('img/favicon.ico') }}">
+  <link rel="icon" type="image/ico" href="{{ url_for('images/favicon/favicon.ico') }}">
   <meta name="msapplication-TileColor" content="#2f83cd">
   <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
   <!-- CSS -->
-  <!-- build:css build/css/navy.css -->
-  {{ css('css/navy') }}
-  <!-- endbuild -->
-  <link href="//fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link href="/css/main.css" rel="stylesheet"/>
-  <link href="/css/normalize.css" rel="stylesheet"/>
-  <script src="/js/modernizr-2.7.1.min.js"></script>
+ <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,700,400italic,100,100italic'>
+    <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100'>
+    <link rel="stylesheet" href="/css/normalize.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/css/stylemain.css">
+  <!-- TOP JS -->
+    <script type="text/javascript">
+      _locals = {"user":{},"production":true};
+    </script>
   <!-- RSS -->
   {{ feed_tag('atom.xml') }}
   <!-- Open Graph -->
