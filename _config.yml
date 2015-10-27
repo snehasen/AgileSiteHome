@@ -19,7 +19,7 @@ per_page: 0
 theme: navy
 deploy:
   type: git
-  repo: git@github.com:snehasen/agilesitesng-website.git
+  repo: git@github.com:sciabarra/AgileSites3-website.git
 
 disqus_shortname: hexojs
 google_analytics: UA-4910098-10
