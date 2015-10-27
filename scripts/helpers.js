@@ -57,7 +57,7 @@ hexo.extend.helper.register('doc_sidebar', function(className){
       var itemClass = className + '-link';
       if (link === path) itemClass += ' current';
 
-      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(prefix + text) + '</a>';
+      result += '<a href="' + link + '" class="' + itemClass + '">' + self.__(text) + '</a>';
     })
   });
 
@@ -75,7 +75,7 @@ hexo.extend.helper.register('header_menu', function(className){
     if (!isEnglish && ~localizedPath.indexOf(title)) path = lang + path;
 
     result += '<li class="' + className + '-item">';
-    result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('menu.' + title) + '</a>';
+    result += '<a href="' + self.url_for(path) + '" class="' + className + '-link">' + self.__('' + title) + '</a>';
     result += '</li>';
   });
 

@@ -1,8 +1,10 @@
 <head prefix="og: http://ogp.me/ns#">
-  <meta charset="utf-8">
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, minimal-ui">
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ config.title }}</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+
   <!-- Canonical links -->
   <link rel="canonical" href="{{ url }}">
   <!-- Alternative links -->
@@ -14,13 +16,14 @@
   <!-- Icon -->
  
   <link rel="icon" type="image/ico" href="{{ url_for('images/favicon/favicon.ico') }}">
-  <meta name="msapplication-TileColor" content="#2f83cd">
-  <meta name="msapplication-TileImage" content="{{ url_for('icon/mstile-144x144.png') }}">
   <!-- CSS -->
+   <!-- build:css build/css/navy.css -->
+  {{ css('css/navy') }}
+  <!-- endbuild -->
  <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Roboto:400,300italic,300,700,400italic,100,100italic'>
     <link rel='stylesheet' type='text/css' href='http://fonts.googleapis.com/css?family=Alegreya+Sans:100'>
-    <link rel="stylesheet" href="/css/normalize.css">
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/normalize.css">	
+	<link rel="stylesheet" href="/css/html5main.css">
     <link rel="stylesheet" href="/css/font-awesome.min.css">
     <link rel="stylesheet" href="/css/stylemain.css">
   <!-- TOP JS -->
@@ -38,4 +41,5 @@
   <meta class="swiftype" name="title" data-type="string" content="{{ page.title || config.title }}">
   <!-- Google Analytics -->
   {{ partial('google_analytics') }}
+  
 </head>

@@ -1,8 +1,8 @@
 <!-- Scripts -->
+
 <!-- build:js build/js/main.js -->
-{{ js('js/main-built') }}
-
+{{ js('js/jquery.min') }}
+{{ js('js/mobile_nav') }}
 <!-- endbuild -->
-
 
 

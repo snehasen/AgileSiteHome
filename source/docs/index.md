@@ -1,18 +1,18 @@
 title: Documentation
 ---
-Welcome to the Hexo documentation. If you encounter any problems when using Hexo, have a look at the  [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/hexojs/hexo/issues) or start a topic on the [Google Group](https://groups.google.com/group/hexo).
+Welcome to the Agile Sites documentation. If you encounter any problems when using Agile Sites, have a look at the  [troubleshooting guide](troubleshooting.html), raise an issue on [GitHub](https://github.com/hexojs/Agile Sites/issues) or start a topic on the [Google Group](https://groups.google.com/group/Agile Sites).
 
-## What is Hexo?
+## What is Agile Sites?
 
-Hexo is a fast, simple and powerful blog framework. You write posts in [Markdown](http://daringfireball.net/projects/markdown/) (or other languages) and Hexo generates static files with a beautiful theme in seconds.
+Agile Sites is a fast, simple and powerful blog framework. You write posts in [Markdown](http://daringfireball.net/projects/markdown/) (or other languages) and Agile Sites generates static files with a beautiful theme in seconds.
 
 ## Installation
 
-It only takes few minutes to set up Hexo. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/hexojs/hexo/issues) and I'll try to solve it.
+It only takes few minutes to set up Agile Sites. If you encounter a problem and can't find the solution here, please [submit a GitHub issue](https://github.com/hexojs/hexo/issues) and I'll try to solve it.
 
 ### Requirements
 
-Installing Hexo is quite easy. However, you do need to have a couple of other things installed first:
+Installing Agile Sites is quite easy. However, you do need to have a couple of other things installed first:
 
 - [Node.js](http://nodejs.org/)
 - [Git](http://git-scm.com/)
@@ -62,7 +62,7 @@ Alternatively, download and run [the installer](http://nodejs.org/).
 
 ### Install Hexo
 
-Once all the requirements are installed, you can install Hexo with npm.
+Once all the requirements are installed, you can install Agile Sites with npm.
 
 ``` bash
 $ npm install -g hexo-cli
