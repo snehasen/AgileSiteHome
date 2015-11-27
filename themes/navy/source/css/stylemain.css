@@ -317,7 +317,7 @@ body.noAnimation #header {
 }
 #founders .video-overlay-content{
 	position: absolute;
-	top: 42%;
+	top: 50%;
 	left: 0;
 	right: 0;
 	opacity: 1;
@@ -384,11 +384,8 @@ body.noAnimation #header {
 	-ms-transform: translateY(-50%);
 	transform: translateY(-50%);
 }
-#ormowcs .video-overlay-content, #jsp .video-overlay-content{
-	top: 20%;
-}
-#comshell .video-overlay-content{
-	top: 35%;
+#ormowcs .video-overlay-content, #jsp .video-overlay-content, #comshell .video-overlay-content{
+	top: 40%;
 }
 #ormowcs .video-overlay-content h2, #jsp .video-overlay-content h2, #comshell .video-overlay-content h2{
 	color: #ffffff;
@@ -634,7 +631,7 @@ h1 {
 	width: 70%;
 }
 }
-@media all and (min-width: 500px) and (max-width: 950px) {
+@media all and (min-width: 500px) and (max-width: 899px) {
 h1, h2 {
 	font-size: 22px;
 	text-align: center;
@@ -825,19 +822,4 @@ h1 {
 		font-size: 32px;
 	}
 }
-@media all and (min-width: 950px) and (max-width: 1200px) {
-#founders .video-overlay-content{
-	top:50%;
-}
-#ormowcs .video-overlay-content, #jsp .video-overlay-content{
-	top: 25%;
-}
-#comshell .video-overlay-content{
-	top: 45%;
-}
-}
-@media all and (min-width: 769px) and (max-width: 799px) {
-	.main-nav-link {
- padding: 0 3px;
-}
-}
+

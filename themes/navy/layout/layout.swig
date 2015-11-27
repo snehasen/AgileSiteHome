@@ -9,7 +9,7 @@
 <html lang="{{ page.lang }}">
 {{ partial('partial/head') }}
 <body class="noAnimation" touch-action="auto">	
-
+<div class="se-pre-con"></div>
 	<div id="body">
 		{{ partial('partial/header') }}
 		{{ body }}

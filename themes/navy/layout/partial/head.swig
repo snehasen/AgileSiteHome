@@ -13,6 +13,9 @@
       <link rel="alternative" hreflang="{{ loop.key }}" href="{{ canonical_url(loop.key) }}">
     {% endfor %}
   {% endif %}
+  {% if page.layout == 'index' %}
+	<link rel="stylesheet" href="/css/index.css">
+  {% endif %}
   <!-- Icon -->
  
   <link rel="icon" type="image/ico" href="{{ url_for('images/favicon/favicon.ico') }}">
@@ -41,5 +44,12 @@
   <meta class="swiftype" name="title" data-type="string" content="{{ page.title || config.title }}">
   <!-- Google Analytics -->
   {{ partial('google_analytics') }}
-  
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.2/modernizr.js"></script>
+<script>
+	$(window).load(function() {
+		// Animate loader off screen
+		$(".se-pre-con").fadeOut("slow");;
+	});
+	</script>
 </head>
